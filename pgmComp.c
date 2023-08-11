@@ -48,7 +48,7 @@ int main(int argc, char **argv)
 	if (argc != 3)	
 	{ /* wrong arg count */
 		/* print an error message        */
-		printf("ERROR: Bad Arguments\n");
+		printf("ERROR: Bad Argument Count\n");
 		/* and return an error code      */
 		return EXIT_WRONG_ARG_COUNT;
 	} /* wrong arg count */
